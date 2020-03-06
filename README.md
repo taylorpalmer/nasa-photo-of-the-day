@@ -49,8 +49,8 @@ Follow these steps for completing your project.
 
 **Step 1 - Planning**
 
-- [ ] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
-- [ ] Once you have a design plan in mind, break down the designs into individual components.
+- [x] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
+- [x] Once you have a design plan in mind, break down the designs into individual components.
 - [ ] Plan which components will hold state, what data each needs from props (if any), and where you will be making your data fetch.
 - [ ] Now it's time to jump into the code!
 
@@ -79,15 +79,15 @@ _Note: if the photo url is NOT a photo, you will need to learn how to display a 
 
 **Step 4 - Adding the Data to State**
 
-- [ ] Once you have made the call correctly, and logged the data, add the data to the state property you built.
+- [x] Once you have made the call correctly, and logged the data, add the data to the state property you built.
 
 **Step 5 - Display the Data**
 Now is the time to build out your other components. Compose your UI, and then pass the data to your children components via props so you can render it on the DOM.
 
 ## _MVP Requirements:_
 
-- [ ] Use the effect hook to fetch the APOD data when the component mounts.
-- [ ] Display the APOD data in different components that are composed together to build your UI.
+- [x] Use the effect hook to fetch the APOD data when the component mounts.
+- [x] Display the APOD data in different components that are composed together to build your UI.
 
 ## Pro Tips:
 
