@@ -1,6 +1,6 @@
 # Module Project: Component Side Effects- NASA APOD
 
-This will be a two-module project. In it you will consume the NASA API to fetch the "Astronomy Photo Of The Day" or APOD. Once you fetch the data, you will build a few components that will render different pieces of data in your interface. After the second module (in the [DAY_TWO_README.md](DAY_TWO_README.md) file) you will re-style your app using one of the libraries you learn. 
+This will be a two-module project. In it you will consume the NASA API to fetch the "Astronomy Photo Of The Day" or APOD. Once you fetch the data, you will build a few components that will render different pieces of data in your interface. After the second module (in the [DAY_TWO_README.md](DAY_TWO_README.md) file) you will re-style your app using one of the libraries you learn.
 
 ## Instructions
 
@@ -22,9 +22,9 @@ In this project you will build out a application to show the nasa photo of the d
 
 This project was put together using create-react-app (CRA). You will not need to install CRA in order to make this project work. Follow the steps below to setup the project with the proper dependencies.
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
+- [x] Create a forked copy of this project.
+- [x] Add your team lead as collaborator on Github.
+- [x] Clone your OWN version of the repository in your terminal
 - [ ] Download project dependencies by running `npm install`
 - [ ] Start up the app using `npm start`
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
@@ -49,8 +49,8 @@ Follow these steps for completing your project.
 
 **Step 1 - Planning**
 
-- [ ] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
-- [ ] Once you have a design plan in mind, break down the designs into individual components.
+- [x] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
+- [x] Once you have a design plan in mind, break down the designs into individual components.
 - [ ] Plan which components will hold state, what data each needs from props (if any), and where you will be making your data fetch.
 - [ ] Now it's time to jump into the code!
 
@@ -79,15 +79,15 @@ _Note: if the photo url is NOT a photo, you will need to learn how to display a 
 
 **Step 4 - Adding the Data to State**
 
-- [ ] Once you have made the call correctly, and logged the data, add the data to the state property you built.
+- [x] Once you have made the call correctly, and logged the data, add the data to the state property you built.
 
 **Step 5 - Display the Data**
 Now is the time to build out your other components. Compose your UI, and then pass the data to your children components via props so you can render it on the DOM.
 
 ## _MVP Requirements:_
 
-- [ ] Use the effect hook to fetch the APOD data when the component mounts.
-- [ ] Display the APOD data in different components that are composed together to build your UI.
+- [x] Use the effect hook to fetch the APOD data when the component mounts.
+- [x] Display the APOD data in different components that are composed together to build your UI.
 
 ## Pro Tips:
 
@@ -112,5 +112,4 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 - [ ] Notice the optional query param `date`? You can pass a different date in your url like this `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2012-03-14` to get the APOD from a different date. Add a date dropdown that allows you to select a different date and see that APOD. This will be quite a bit of work, but it will be a fantastic exercise to go through a little more complicated logic and interaction in your app. This is also a very common type of interaction, so it would be good to try this out
 - [ ] Make another app that consumes another one of NASA's other APIs listed on the same website
 
-
- ## Part II - [Advanced Styling Techniques](DAY_TWO_README.md)
+## Part II - [Advanced Styling Techniques](DAY_TWO_README.md)
